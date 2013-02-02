@@ -16,12 +16,14 @@ var trackerId = 'UA-21222559-1';
 
 $(document).ready(function() {
     try {
-        if (urlParams[0] !== undefined) {
-            username = urlParams[0];
-            run();
-        } else {
-            home();
-        }
+        // if (urlParams[0] !== undefined) {
+        //     username = urlParams[0];
+        //     run();
+        // } else {
+        //     home();
+        // }
+        username = 'klutometis';
+        run();
     } catch (err) {
         try {
             console.log(err);
